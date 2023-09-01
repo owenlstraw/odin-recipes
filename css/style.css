@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Times New Roman", "Arial", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    background-color: plum;
+    color: black;
+    width: 500px;
+    padding-top: 20px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-top: 4px solid black;
+    font-style: italic;
+}
+
+.buttonlinks {
+    background-color: plum;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    padding: 10px 5px 25px 5px;
+}   
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.meatloaf {
+    margin: 10px auto;
+    text-align: center;
+    background-color: hsl(0, 79%, 72%);
+    padding: 60px 20px;
+    border: 2px solid black;
+    width: 250px;
+}
+
+.macncheese {
+    margin: 10px auto;
+    text-align: center;
+    background-color: hsl(17, 100%, 74%);
+    padding: 60px 20px;
+    border: 2px solid black;
+    width: 250px;
+}
+
+.tacos {
+    margin: 10px auto;
+    text-align: center;
+    background-color: hsl(351, 100%, 86%);
+    padding: 60px 20px;
+    border: 2px solid black;
+    width: 250px;
+}
+
+.meatloaf:hover {
+    background-color: hsl(0, 79%, 60%);
+}
+
+.macncheese:hover {
+    background-color: hsl(17, 100%, 72%);
+}
+
+.tacos:hover {
+    background-color: hsl(352, 100%, 74%);
+}
